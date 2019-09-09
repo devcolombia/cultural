@@ -8,7 +8,7 @@
 <label for="password">Contraseña <span>(requerido)</span></label>
 <input type="password" name="password" class="form-input" required/><p>
 <label for="nick">Nickname <span>(requerido)</span></label>
-<input type="text" name="user" class="form-input" / required><p>
+<input type="text" name="user" class="form-input" required><p>
 <input class="form-btn" name="submit" type="submit" value="Registrarme!!" />
 </form>
 </div>

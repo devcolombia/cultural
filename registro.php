@@ -13,7 +13,8 @@
 13 echo ’El usuario ’.$user. ’ya existe.’;
 14 }
 15 else{
-16 $meter = @mysql_query(’INSERT INTO usuarios (nombre, email, user, password) values ("’.mysql_real_escape_string($nombre).’", "’.mysql_real_escape_string($email).’", "’.mysql_real_escape_string($user).’", "’.mysql_real_escape_string($password).’")’);
+16 $meter = @mysql_query(’INSERT INTO usuarios (nombre, email, user, password) values 
+("’.mysql_real_escape_string($nombre).’", "’.mysql_real_escape_string($email).’", "’.mysql_real_escape_string($user).’", "’.mysql_real_escape_string($password).’")’);
 17 if($meter)
 18 {
 19 echo ’Usuario registrado con exito’;
